@@ -1,0 +1,32 @@
+.transcript {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
+
+.ehr-data {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.ehr-data pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
+
+.recording-controls {
+    margin: 20px 0;
+}
+
+.recording-controls button {
+    margin: 0 10px;
+}
+
+#recordingTime {
+    font-weight: bold;
+}/* Custom styles for EHR application */ 
